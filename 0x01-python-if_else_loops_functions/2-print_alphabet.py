@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for ascii in range(97, 123):
-    printp("{}".format(ascii), end="")
+for b in range(ord('a'), ord('z') + 1):
+    printp("{:c}".format(b), end="")

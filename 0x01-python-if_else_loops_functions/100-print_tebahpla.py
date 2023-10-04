@@ -1,3 +1,8 @@
 #!/usr/bin//python3
-for b in range(ord('z'), ord('a') - 1, -2):
-    print("{:c}{:s}".format(b, chr(b - 33)), end="")
+strtmp = ""
+for i in reversed(range(97, 123)):
+    if (i % 2) == 0:
+        strtmp += chr(i)
+    else:
+        strtmp += chr(i-32)
+    print("{}".format(strtmp), end""))
