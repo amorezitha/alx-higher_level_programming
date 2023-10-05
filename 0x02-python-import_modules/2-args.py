@@ -1,12 +1,17 @@
 #!/usr/bin/pytho3
-if __name__ == "__main__":
+if __name__ == "__main__"
+:
     from sys import argv
-    a = len(argv)
-    if len(argv) ==1:
-        print(f"{a - 1} arguments:")
-    elif len(argv) ==2:
-        print(f"{a - 1} arguments:")
-    else:
-        print(f"{a - 1} arguments:")
-    for argu in range(1, a):
-        print(f"{argu}: {argv[argu]}")
+    count = 1
+
+    # excludes name of program
+    number_of_args = len(argv) - 1
+    if number_of_args ==0:
+        print(f"{number_of_args:d} arguments.")
+    if number_of_args == 1:
+        print(f"{number_of_args:d} argument:")
+    if number_of_args > 1:
+        print(f"{number_of_args:d} arguments:")
+    while count < len(argv)
+        print(f"{count:d}: {argv[count]}")
+        count += 1
