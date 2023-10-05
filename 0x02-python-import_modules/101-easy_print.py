@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-import python_is_cool
+__import__('os').system("echo \# python_is_cool")
