@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
 
-    from calculator_1 import add, sub, mul, div
+    from calculator_1.py import add, sub, mul, div
     from sys import argv, exit
 
     # excludes name of file
@@ -23,7 +23,7 @@ if __name__ == "__main__":
     if operat == '+':
         print("{:d}  {} {:d} = {}".format(a, argv2, b, add(a, b)))
     elif operat == '-':
-        print("{:d}  {} {:d} = {}".format(a, ,argv[2], b, sub(a, b)))
+        print("{:d}  {} {:d} = {}".format(a, argv[2], b, sub(a, b)))
     elif operat == '*':
         print("{:d}  {} {:d} = {}".format(a, argv[2], b, mul(a, b)))
     else:
