@@ -20,11 +20,11 @@ if __name__ == "__main__":
     a = int(argv[1])
     b = int(argv[3])
 
-    if operat == "+":
+    if operat == '+':
         print("{:d}  {} {:d} = {}".format(a, argv2, b, add(a, b)))
-    elif operat == "-":
+    elif operat == '-':
         print("{:d}  {} {:d} = {}".format(a, ,argv[2], b, sub(a, b)))
-    elif operat == "*":
+    elif operat == '*':
         print("{:d}  {} {:d} = {}".format(a, argv[2], b, mul(a, b)))
     else:
         print("{:d}  {} {:d} = {}".format(a, argv[2], b, div(a, b)))
