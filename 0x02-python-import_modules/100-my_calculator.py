@@ -23,8 +23,8 @@ if __name__ == "__main__":
     if operat == "+":
         print("{:d}  {} {:d} = {}".format(a, argv2, b, add(a, b)))
     elif operat == "-":
-        print("{:d}  {} {} = {}".format(a, ,argv[2] b, sub(a, b)))
+        print("{:d}  {} {:d} = {}".format(a, ,argv[2], b, sub(a, b)))
     elif operat == "*":
-        print("{:d}  {} {} = {}".format(a, argv[2], b, mul(a, b)))
+        print("{:d}  {} {:d} = {}".format(a, argv[2], b, mul(a, b)))
     else:
-        print("{:d}  {} {:d} = {}".format(a, argv[2] b, div(a, b)))
+        print("{:d}  {} {:d} = {}".format(a, argv[2], b, div(a, b)))
