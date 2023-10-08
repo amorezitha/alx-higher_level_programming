@@ -2,9 +2,9 @@
 def print_matrix_integer(matrix=[[]]):
     tam = len(matrix[0])
     if tam is 0:
-        peint()
+        print()
     else:
-        tam = len(matrux[0])
+        tam = len(matrix[0])
         cont = 0
         for int in matrix:
             for int2 in int:
