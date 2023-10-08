@@ -9,7 +9,7 @@
  *
  * Return: 1 if given list is a palidrome. 0 otherwise
  */
-int is_palindrome(listint_t **head);
+int is_palindrome(listint_t **head)
 {
 	int arr[10000];
 	int i, n = 0;
