@@ -1,10 +1,11 @@
 #include <Python.h>
 #include <listobject.h>
 #include <object.h>
+#include <stdio.h>
 
 /**
  * print_python_list_info - prints basic info about a Python list
- * @p: pointer to the PyObject representing the list
+ * @p: python object
  */
 void print_python_list_info(PyObject *p)
 {
