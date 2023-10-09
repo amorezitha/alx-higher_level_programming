@@ -1,13 +1,13 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
-
+    """Handle basic arithmetic operations."""
     from calculator_1 import add, sub, mul, div
     from sys import argv, exit
 
     # excludes name of file
     number_of_args = len(argv) - 1
 
-    if number_of_args != 4:
+    if number_of_args != 3:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         exit(1)
 
