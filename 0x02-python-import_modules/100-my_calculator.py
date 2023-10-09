@@ -7,7 +7,7 @@ if __name__ == "__main__":
     # excludes name of file
     number_of_args = len(argv) - 1
 
-    if number_of_args != 3:
+    if number_of_args != 4:
         print("Usage: ./100-my_calculator.py <a> <operator> <b>")
         exit(1)
 
