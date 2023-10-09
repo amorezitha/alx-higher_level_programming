@@ -18,3 +18,4 @@ if __name__ == "__main__":
     b = int(sys.argv[3])
     result = ops[operator](a, b)
     print(f"{a} {operator} {b} = {result}")
+    sys.exit(1)
