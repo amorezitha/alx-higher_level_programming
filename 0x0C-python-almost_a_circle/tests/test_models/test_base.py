@@ -2,14 +2,15 @@
 import unittest
 from models.base import Base
 from models.square import Square
-import json
 import inspect
+import json
 
 """Creating test cases for the base module"""
 
 
 class test_base(unittest.TestCase):
     """Testing base"""
+
     def test_id_none(self):
         """Sending no id"""
         b = Base()
@@ -28,7 +29,7 @@ class test_base(unittest.TestCase):
     def test_id_negative(self):
         """Sending a negative id"""
         b = (-20)
-        slf.assertEqual(-20, b.id)
+        self.assertEqual(-20, b.id)
 
     def test_id_string(self):
         """Sending an id that is not an int"""
@@ -56,7 +57,7 @@ class test_base(unittest.TestCase):
         json_dict = sq.to_dictionary()
         json_string = Base.to_json_string([json_dict])
         self.assertEqual(type(json_string), str)
-        
+
     def test_to_json_value(self):
         """Testing the json string"""
         sq = Square(1, 0, 0, 609)
